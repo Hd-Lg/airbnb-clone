@@ -1,13 +1,16 @@
 import Head from "next/head";
 
+import { Banner, Header } from "../components";
+
 export default function Home() {
 	return (
-		<div>
+		<div className="">
 			<Head>
 				<title>AirBnB-Clone</title>
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
-			<h1>AirBNB</h1>
+			<Header />
+			<Banner />
 		</div>
 	);
 }
