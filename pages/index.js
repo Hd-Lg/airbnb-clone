@@ -32,9 +32,11 @@ export default function Home() {
 					<h2 className="text-4xl font-semibold py-8">
 						Live Anywhere
 					</h2>
-					{cardsData?.map(({ id, img, title }) => (
-						<MediumCard key={id} img={img} title={title} />
-					))}
+					<div className="flex space-x-3 overflow-x-scroll overflow-y-hidden scrollbar-hide p-3 -ml-3">
+						{cardsData?.map(({ id, img, title }) => (
+							<MediumCard key={id} img={img} title={title} />
+						))}
+					</div>
 				</section>
 			</main>
 		</div>
