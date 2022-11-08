@@ -7,6 +7,7 @@ import {
 	SmallCard,
 	MediumCard,
 	LargeCard,
+	Footer,
 } from "../components";
 import Large_card from "../assets/Large_card.webp";
 
@@ -52,6 +53,7 @@ export default function Home() {
 					buttonText="Get Inspired"
 				/>
 			</main>
+			<Footer />
 		</div>
 	);
 }
