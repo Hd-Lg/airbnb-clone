@@ -7,9 +7,13 @@ import {
 	Birkenhead,
 	Newquay,
 	Hove,
+	Outdoor,
+	Unique,
+	Home,
+	Pet,
 } from "../assets";
 
-const exploreData = [
+export const exploreData = [
 	{
 		id: 1,
 		img: London,
@@ -60,4 +64,9 @@ const exploreData = [
 	},
 ];
 
-export default exploreData;
+export const cardsData = [
+	{ id: 1, img: Outdoor, title: "Outdoor getaways" },
+	{ id: 2, img: Unique, title: "Unique stays" },
+	{ id: 3, img: Home, title: "Entire homes" },
+	{ id: 4, img: Pet, title: "Pet allowed" },
+];

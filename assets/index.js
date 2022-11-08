@@ -8,6 +8,10 @@ import London from "./London.webp";
 import Manchester from "./Manchester.webp";
 import Newquay from "./Newquay.webp";
 import York from "./York.webp";
+import Outdoor from "./Outdoor.webp";
+import Unique from "./Unique.webp";
+import Home from "./Home.webp";
+import Pet from "./Pet.webp";
 
 export {
 	Airbnb_Logo,
@@ -20,4 +24,8 @@ export {
 	Manchester,
 	Newquay,
 	York,
+	Outdoor,
+	Unique,
+	Home,
+	Pet,
 };

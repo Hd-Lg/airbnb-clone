@@ -1,7 +1,7 @@
 import Head from "next/head";
 
-import exploreData from "../data/exploreData";
-import { Banner, Header, SmallCard } from "../components";
+import { exploreData, cardsData } from "../data/exploreData";
+import { Banner, Header, SmallCard, MediumCard } from "../components";
 
 export default function Home() {
 	return (
@@ -17,7 +17,7 @@ export default function Home() {
 					<h2 className="text-4xl font font-semibold pb-5">
 						Explore Nearby
 					</h2>
-					<div className="grid">
+					<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
 						{exploreData?.map(({ id, img, distance, location }) => (
 							<SmallCard
 								key={id}
@@ -27,6 +27,14 @@ export default function Home() {
 							/>
 						))}
 					</div>
+				</section>
+				<section>
+					<h2 className="text-4xl font-semibold py-8">
+						Live Anywhere
+					</h2>
+					{cardsData?.map(({ id, img, title }) => (
+						<MediumCard key={id} img={img} title={title} />
+					))}
 				</section>
 			</main>
 		</div>
