@@ -13,6 +13,13 @@ import Unique from "./Unique.webp";
 import Home from "./Home.webp";
 import Pet from "./Pet.webp";
 import Large_card from "./Large_card.webp";
+import Room_1 from "./Room_1.webp";
+import Room_2 from "./Room_2.webp";
+import Room_3 from "./Room_3.jpg";
+import Room_4 from "./Room_4.jpg";
+import Room_5 from "./Room_5.webp";
+import Room_6 from "./Room_6.jpg";
+import Room_7 from "./Room_7.webp";
 
 export {
 	Airbnb_Logo,
@@ -30,4 +37,11 @@ export {
 	Home,
 	Pet,
 	Large_card,
+	Room_1,
+	Room_2,
+	Room_3,
+	Room_4,
+	Room_5,
+	Room_6,
+	Room_7,
 };
