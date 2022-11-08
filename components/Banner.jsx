@@ -10,6 +10,7 @@ export default function Banner() {
 				src={Banner_Image}
 				style={{ objectFit: "cover" }}
 				fill
+				placeholder="blur"
 				alt="People in a forest"
 			/>
 			<div className="absolute top-1/2 w-full text-center">
