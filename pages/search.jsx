@@ -2,9 +2,11 @@ import React from "react";
 import { useRouter } from "next/router";
 import { format } from "date-fns";
 
-import { Footer, Header, InfoCard } from "../components";
+import { Footer, Header, InfoCard, MapScreen } from "../components";
 
 import { searchData } from "../data/exploreData";
+
+import "mapbox-gl/dist/mapbox-gl.css";
 
 export default function Search() {
 	const router = useRouter();
@@ -59,6 +61,9 @@ export default function Search() {
 							)
 						)}
 					</div>
+				</section>
+				<section className="hidden xl:inline-flex xl:min-w-[40%] sticky top-[95px] h-[calc(100vh-76px)]">
+					<MapScreen />
 				</section>
 			</main>
 			<Footer />
