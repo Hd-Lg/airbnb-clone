@@ -12,6 +12,7 @@ import Outdoor from "./Outdoor.webp";
 import Unique from "./Unique.webp";
 import Home from "./Home.webp";
 import Pet from "./Pet.webp";
+import Large_card from "./Large_card.webp";
 
 export {
 	Airbnb_Logo,
@@ -28,4 +29,5 @@ export {
 	Unique,
 	Home,
 	Pet,
+	Large_card,
 };

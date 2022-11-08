@@ -1,7 +1,14 @@
 import Head from "next/head";
 
 import { exploreData, cardsData } from "../data/exploreData";
-import { Banner, Header, SmallCard, MediumCard } from "../components";
+import {
+	Banner,
+	Header,
+	SmallCard,
+	MediumCard,
+	LargeCard,
+} from "../components";
+import Large_card from "../assets/Large_card.webp";
 
 export default function Home() {
 	return (
@@ -38,6 +45,12 @@ export default function Home() {
 						))}
 					</div>
 				</section>
+				<LargeCard
+					img={Large_card}
+					title="The Greatest Outdoors"
+					description="Wishlists curated by Airbnb."
+					buttonText="Get Inspired"
+				/>
 			</main>
 		</div>
 	);
