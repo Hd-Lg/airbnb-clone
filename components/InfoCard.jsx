@@ -21,6 +21,7 @@ export default function InfoCard({
 					alt="Picture of the place"
 					fill
 					style={{ objectFit: "cover" }}
+					className="rounded-2xl"
 				/>
 			</div>
 			<div className="flex flex-col flex-grow pl-5">

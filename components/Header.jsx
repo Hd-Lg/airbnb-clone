@@ -23,7 +23,6 @@ export default function Header({ placeholder }) {
 	const router = useRouter();
 
 	const handleSelect = (ranges) => {
-		console.log(ranges);
 		setStartDate(ranges.selection.startDate);
 		setEndDate(ranges.selection.endDate);
 	};
